@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curvaceous Template</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+</head>
+
+<body>
+
+    <section class="blue">
+        <h1>Nice Curves</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio nobis ab quis in hic enim, non officiis
+            impedit deleniti velit quod est, fugit eveniet voluptate amet laborum sequi porro delectus?</p>
+        <div class="curve"></div>
+    </section>
+
+    <section class="bubble">
+        <h1>Nice Curves</h1>
+        <p>Enim deleniti explicabo nobis ipsa quas sunt atque vero voluptate fugit, veritatis inventore harum. Impedit
+            eligendi nihil dolorum assumenda provident aliquam quas ducimus mollitia, est alias sit, voluptas quasi
+            ipsa.</p>
+    </section>
+
+    <section class="dark">
+        <h1>Nice Curves</h1>
+        <p>Exercitationem numquam, optio quidem modi est mollitia praesentium nulla blanditiis fugit debitis tempora.
+            Explicabo rerum nisi, excepturi aliquam officiis quas sapiente deleniti blanditiis. Veritatis ex dicta
+            maiores impedit non molestiae!</p>
+    </section>
+
+    <section class="red">
+        <h1>Nice Curves</h1>
+        <p>Nostrum accusantium ratione hic natus molestias. Consequatur perspiciatis ipsum nobis provident fugit
+            corrupti quaerat eveniet natus, sunt tempore atque aut facere, ducimus consequuntur ad minus mollitia in
+            illo. Alias, ea?</p>
+
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <div class="spacer layer1"></div>
+
+    <section>
+        <h1>Nice Curves</h1>
+        <p>Similique earum beatae perferendis fugit pariatur dignissimos eveniet est nihil doloribus. Aut natus non
+            corrupti. Illum distinctio, assumenda soluta quam quidem sunt incidunt aperiam ipsam quas cumque ad a
+            placeat.</p>
+    </section>
+
+    <section class="test">
+        <h1>Nice Curves</h1>
+        <p>Saepe, repellat aut exercitationem eaque repudiandae doloribus iusto atque porro dolores dolor dolorem, ab
+            aliquam temporibus laudantium nihil dicta. Quam optio fugit beatae totam eveniet cumque dolor iusto ipsa
+            praesentium.</p>
+    </section>
+
+
+    <div class="spacer layer2 flip"></div>
+    <section class="pink">
+
+        <svg id="visual" viewBox="0 0 600 200" width="600" height="200" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+
+            <g transform="translate(309.72228927613014 105.19098259518212)">
+                <path id="blob1"
+                    d="M55.2 -54.9C67.6 -42.9 70.8 -21.4 66 -4.8C61.1 11.8 48.2 23.6 35.9 33.9C23.6 44.2 11.8 53.1 -4 57.1C-19.8 61.1 -39.6 60.3 -56.3 49.9C-72.9 39.6 -86.5 19.8 -87.5 -1.1C-88.6 -21.9 -77.2 -43.8 -60.5 -55.8C-43.8 -67.8 -21.9 -69.9 -0.2 -69.7C21.4 -69.4 42.9 -66.9 55.2 -54.9"
+                    fill="#BB004B"></path>
+            </g>
+            <g transform="translate(307.2749577596334 87.96238744662858)" style="visibility: hidden;">
+                <path id="blob2"
+                    d="M42.7 -41.7C53.4 -32.1 58.7 -16 59.3 0.6C59.9 17.2 55.7 34.4 45.1 51.1C34.4 67.7 17.2 83.9 2.7 81.2C-11.8 78.5 -23.6 56.9 -37.9 40.2C-52.2 23.6 -69.1 11.8 -73 -3.9C-76.9 -19.6 -67.8 -39.1 -53.5 -48.8C-39.1 -58.5 -19.6 -58.2 -1.8 -56.5C16 -54.7 32.1 -51.4 42.7 -41.7"
+                    fill="#BB004B"></path>
+            </g>
+        </svg>
+    </section>
+
+
+    <div class="spacer layer2"></div>
+
+    <!-- <section>
+        <h1>Nice Curves</h1>
+        <p>Quidem voluptatem unde ipsa qui et optio incidunt quaerat atque, odio ad facilis asperiores neque praesentium quibusdam corrupti enim, animi repudiandae, saepe labore? Maxime veniam accusamus omnis est earum itaque.</p>
+    </section> -->
+
+    
+    <script>
+        const tween = KUTE.fromTo(
+            '#blob1',
+            { path: '#blob1'},
+            { path: '#blob2' },
+            { repeat: 999, duration: 3000, yoyo: true }
+        )
+        tween.start();
+    </script>
+</body>
+
+</html>
